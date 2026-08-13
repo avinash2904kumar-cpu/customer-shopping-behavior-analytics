@@ -87,3 +87,23 @@ FROM customer
 GROUP BY age_group
 ORDER BY total_revenue desc;
 
+--Top 10 Highest-Value Customers
+SELECT
+    customer_id,
+    SUM(total_charges) AS lifetime_value
+FROM customer_churn
+GROUP BY customer_id
+ORDER BY lifetime_value DESC
+LIMIT 10;
+--Revenue by Contract Type
+SELECT
+    contract_type,
+    SUM(total_charges) AS total_revenue
+FROM customer_churn
+GROUP BY contract_type;
+--Average Monthly Charges by Plan
+SELECT
+    plan_tier,
+    ROUND(AVG(monthly_charges), 2) AS avg_monthly_charge
+FROM customer_churn
+GROUP BY plan_tier;
