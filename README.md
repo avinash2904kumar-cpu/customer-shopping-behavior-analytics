@@ -13,7 +13,7 @@ Raw CSV Data
      ↓
 Python & Pandas
      ↓
-Data Cleaning & EDA
+Data Cleaning 
      ↓
 PostgreSQL
      ↓
@@ -78,8 +78,6 @@ Key attributes include:
 | -------------------- | --------------------------------------- |
 | **Python**           | Data cleaning and pre-processing        |
 | **Pandas**           | Data manipulation and transformation    |
-| **Matplotlib**       | Data visualization                      |
-| **Seaborn**          | Exploratory data analysis               |
 | **PostgreSQL**       | Database storage and SQL analysis       |
 | **SQL**              | Business queries and KPI generation     |
 | **Power BI**         | Interactive dashboard and visualization |
@@ -102,23 +100,6 @@ Key preprocessing steps included:
 * Prepared the cleaned dataset for database analysis
 
 The cleaned dataset was then loaded into **PostgreSQL** for structured querying and business analysis.
-
----
-
-## 🔎 Exploratory Data Analysis
-
-EDA was performed using **Pandas, Matplotlib, and Seaborn** to understand customer and purchasing behavior before performing SQL analysis.
-
-The analysis explored:
-
-* Customer demographics
-* Purchase amount distribution
-* Category performance
-* Customer purchasing frequency
-* Subscription behavior
-* Payment methods
-* Product-level patterns
-* Spending behavior across customer segments
 
 ---
 
@@ -245,7 +226,7 @@ Birla Institute of Technology, Mesra
 
 ### Skills Demonstrated
 
-`Python` `Pandas` `SQL` `PostgreSQL` `Power BI` `Excel` `EDA` `Data Visualization`
+`Python` `Pandas` `SQL` `PostgreSQL` `Power BI` `Excel` `Data Visualization`
 
 ---
 
